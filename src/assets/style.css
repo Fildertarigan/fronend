@@ -1,18 +1,38 @@
-.warna {
-    color:tomato;
-    font-size: 20px;
+.intro {
+    height: 100vh;
+    background-image: url("../assets/images/bg/main.webp");
+    background-attachment: fixed;
+    background-size: cover;
 }
-.kotak1 {
+.footer {
+    height: auto;
+    background-color: gray;
+    background-attachment: fixed;
+    background-size: cover;
     
-    background-color: #2d2d2d;
-   border: 5px solid tomato;
-   color: white;
-   
+} 
+.trending {
+    background-image: url("../assets/images/bg/bg.png");
+    background-attachment: fixed;
+    background-size: cover;
+    
 }
-.kotak2 {
+.hero {
+    background-image: url("../assets/images/bg/spiderman.jpg");
+    background-attachment: fixed;
+    background-size: cover;
     
-    background-color: #2d2d2d;
-   border: 5px solid aqua;
-   color: white;
-   
+} .card {
+    margin-top: 20px;
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgb(114, 11, 11) 35%, rgb(225, 7, 7) 100%);
+}.card-img-top {
+    height: 60vh;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 0;
+} .tombol{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;  
 }
